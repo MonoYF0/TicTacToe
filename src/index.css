@@ -1,0 +1,53 @@
+body {
+  background: #152238;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow-y: hidden;
+}
+.the-game {
+  text-align: center;
+  font-family: monospace;
+}
+h1 {
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+}
+.cell {
+  background: #01b59d;
+  border-radius: 0.5rem;
+  width: 100px;
+  height: 100px;
+  border: 2px solid #152238;
+  cursor: pointer;
+  font-size: 5rem;
+}
+.cells {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 300px;
+  margin: auto;
+}
+.restart-btn {
+  margin-top: 20px;
+  background: #01b59d;
+  width: 100px;
+  text-align: center;
+  padding: 13px 20px;
+  border-radius: 20px;
+  font-family: monospace;
+  font-weight: 1000;
+  font-size: 1rem;
+  margin-left: 87px;
+  cursor: pointer;
+}
+span {
+  color: #01b59d;
+}
+.status-text {
+  font-size: 2rem;
+  margin-top: 20px;
+  margin-left: 20px;
+}
